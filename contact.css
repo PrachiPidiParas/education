@@ -1,0 +1,121 @@
+/* contact  */
+#contact{
+    padding: 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#contact .getin{
+    width: 350px;
+}
+#contact .getin h2{
+    color: darkblue;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: .8;
+    margin-bottom: 16px;
+}
+#contact .getin p{
+    color: rgb(61, 61, 116);
+    line-height: 24px;
+    padding-bottom: 25px;
+    margin-bottom: 33px;
+    border-bottom: 1px solid wheat;
+}
+#contact .getin h3{
+    color: darkblue;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+#contact .getin .getin-details div{
+display: flex;
+}
+#contact .getin .getin-details div .get{
+    font-size: 16px;
+    line-height: 22px;
+    color: blue;
+    margin-right: 20px;
+}
+#contact .getin .getin-details div p{
+    font-size: 14px;
+    border-bottom: none;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+#contact .getin .getin-details .pro-links i{
+    margin-right: 8px;
+}
+#contact .form{
+    background: rgb(233, 233, 233);
+    padding: 40px;
+    width: 60%;
+    border-radius: 10px;
+
+}
+#contact .form h4{
+    font-size: 24px;
+    color: darkblue;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+#contact .form p{
+    color: rgb(61, 61, 116);
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+#contact .form .form-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#contact .form .form-row input{
+width: 48%;
+font-size: 14px;
+border-radius: 3px;
+border: none;
+background: white;
+color: rgb(77, 77, 97);
+outline: none;
+padding: 20px 30px;
+margin-bottom: 20px;
+}
+#contact .form .form-col input,#contact .form .form-col textarea{
+    width: 100%;
+    font-size: 14px;
+    border-radius: 3px;
+    border: none;
+    background: white;
+    color: rgb(77, 77, 97);
+    outline: none;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    }
+
+    #contact .form button{
+        font-size: .9rem;
+        padding: 13px 25px;
+        background: darkblue;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        font-weight: 600;
+        cursor: pointer;
+        color:white;
+    }
+    #map{
+        height: 70vh;
+        width: 100%;
+        margin-bottom: 8vw;
+    }
+    #map iframe{
+        height: 100%;
+        width: 100%;
+    }
+    @media screen and (max-device-width:414px) {
+        #contact .form{  
+            padding:30px 40px;
+            width: 100%;
+        }
+    }

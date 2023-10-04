@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About Page</title>
+        <meta name="description" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+        <link rel="stylesheet" href="index.css">
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.min.js"
+            integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj+KsslFkCOt3TvJrX2AV/Gc3wOqA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    </head>
+    <body>
+        <!--Navigation-->
+        <nav>
+            <img src="images/Logo.jpeg" alt>
+            <div class="navigation">
+                <ul class="active">
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active"  href="blog.html">Blog</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="images/hamburger.jpg" alt>
+            </div>
+        </nav>
+
+        <!-- about home  -->
+        <section id="about-home">
+            <h2>Blog/</h2>
+        </section>
+
+        <section id="blog-container">
+            <div class="blogs">
+                <div class="post">
+                    <img src="images/b1.jpg" alt="">
+                    <h3>Learn web development in easiest way</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi molestiae aspernatur voluptatum numquam nihil mollitia quidem, praesentium, totam quibusdam suscipit laboriosam vel odio tenetur quasi assumenda aliquid illum magni!</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <div class="post">
+                    <img src="images/b2.jpg" alt="">
+                    <h3>Learn web development in easiest way</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi molestiae aspernatur voluptatum numquam nihil mollitia quidem, praesentium, totam quibusdam suscipit laboriosam vel odio tenetur quasi assumenda aliquid illum magni!</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <div class="post">
+                    <img src="images/b3.webp" alt="">
+                    <h3>Learn web development in easiest way</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi molestiae aspernatur voluptatum numquam nihil mollitia quidem, praesentium, totam quibusdam suscipit laboriosam vel odio tenetur quasi assumenda aliquid illum magni!</p>
+                    <a href="#">Read More</a>
+                </div>
+
+                <div class="post">
+                    <img src="images/b4.webp" alt="">
+                    <h3>Learn web development in easiest way</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse modi molestiae aspernatur voluptatum numquam nihil mollitia quidem, praesentium, totam quibusdam suscipit laboriosam vel odio tenetur quasi assumenda aliquid illum magni!</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="cate">
+                <h3>Categories</h3>
+                <hr>
+                <a href="#">Web Development</a>
+                <hr>
+                <a href="#">Web Desing</a>
+                <hr>
+                <a href="#">App Development</a>
+                <hr>
+                <a href="#"> Frontend Web</a>
+                <hr>
+                <a href="#">Python Programming</a>
+                <hr>
+                <a href="#">JavaScript Hack</a>
+                <hr>
+            </div>
+        </section>
+
+        <!-- footer  -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Services</li>
+            </div>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Services</li>
+            </div>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Services</li>
+            </div>
+            <div class="footer-col">
+                <h3>Guids</h3>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Managed Website</li>
+                <li>Marketing Services</li>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us. We only send promo offers.</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Email Address" id>
+                    <a href="#" class="yellow">SUBSCRIBE</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @2021 All rights reseverd | this template is made
+                    by Tech</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            $('#menu-btn').click(function()
+            {
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function()
+            {
+                $('nav .navigation ul').removeClass('active')
+            });
+            
+        </script>
+
+    </body>
+</html>
